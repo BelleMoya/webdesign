@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="Resources/assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-bold">
+      <a class="navbar-brand" href="Index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Lat-MaxTemp.html">Latitude vs Max Temperature</a>
+              <a class="dropdown-item" href="Lat-Humidity.html">Latitude vs Humidity</a>
+              <a class="dropdown-item" href="Lat-Cloud.html">Latitude vs Cloudiness</a>
+              <a class="dropdown-item" href="Lat-WindSpeed.html">Latitude vs Windspeed</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ComparisonPage.html">Comparison<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="DataPage.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="title">Comaprison: Latitude vs X</h1>
+    <p>Click on any plot to get an in-depth analysis.</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Latitude vs Max Tempature</h2>
+                <a href="Lat-MaxTemp.html"><img width="100%" src="Resources/assets/images/Fig1.png"></a>
+            </div>
+            <div class="col">
+                <h2>Latitude vs Humidity</h2>
+                <a href="Lat-Humidity.html"><img width="100%" src="Resources/assets/images/Fig2.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Latitude vs Cloudiness</h2>
+                <a href="Lat-Cloud.html"><img width="100%" src="Resources/assets/images/Fig3.png"></a>
+            </div>
+            <div class="col">
+                <h2>Latitude vs Wind Speed</h2>
+                <a href="Lat-WindSpeed.html"><img width="100%" src="Resources/assets/images/Fig4.png"></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
